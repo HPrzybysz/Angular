@@ -1,0 +1,31 @@
+.btns{
+    display: flex;
+    border: 1px solid rgb(88, 88, 196);
+    border-radius: 5px;
+    background-color: rgb(76, 184, 242);
+    width: auto;
+    padding: 5px;
+    justify-content: space-evenly;
+
+
+}
+.btns .btn{
+    border: 1px solid black;
+    box-shadow: 10px 5px 5px darkblue;
+    padding: 10px;
+    margin: 5px;
+}
+.btn:hover{
+    background-color: rgb(172, 172, 223);
+    color: greenyellow;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: Georgia;
+}
+
+/*
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://angular.io/license
+*/
